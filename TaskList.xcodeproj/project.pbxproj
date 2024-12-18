@@ -3,30 +3,50 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 74;
 	objects = {
-
-/* Begin PBXBuildFile section */
-		A80708AD2BB5DACF00128186 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80708AC2BB5DACF00128186 /* AppDelegate.swift */; };
-		A80708AF2BB5DACF00128186 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80708AE2BB5DACF00128186 /* SceneDelegate.swift */; };
-		A80708B12BB5DACF00128186 /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80708B02BB5DACF00128186 /* TaskListViewController.swift */; };
-		A80708B72BB5DACF00128186 /* TaskList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A80708B52BB5DACF00128186 /* TaskList.xcdatamodeld */; };
-		A80708B92BB5DAD000128186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A80708B82BB5DAD000128186 /* Assets.xcassets */; };
-		A80708BC2BB5DAD000128186 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A80708BB2BB5DAD000128186 /* Base */; };
-		A80708C62BB5EAB200128186 /* FilledButtonFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80708C52BB5EAB200128186 /* FilledButtonFactory.swift */; };
-/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A80708A92BB5DACF00128186 /* TaskList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskList.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A80708AC2BB5DACF00128186 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A80708AE2BB5DACF00128186 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A80708B02BB5DACF00128186 /* TaskListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
-		A80708B62BB5DACF00128186 /* TaskList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskList.xcdatamodel; sourceTree = "<group>"; };
-		A80708B82BB5DAD000128186 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A80708BB2BB5DAD000128186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A80708BD2BB5DAD000128186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A80708C52BB5EAB200128186 /* FilledButtonFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilledButtonFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A211987B2D136D99002AFEC3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A80708A82BB5DACF00128186 /* TaskList */;
+		};
+		A211987F2D136E1F002AFEC3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				/Localized/LaunchScreen.storyboard,
+			);
+			target = A80708A82BB5DACF00128186 /* TaskList */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		A21198802D136E1F002AFEC3 /* PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = A80708A72BB5DACF00128186 /* Resources */;
+			membershipExceptions = (
+				Base.lproj/LaunchScreen.storyboard,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A21198792D136D34002AFEC3 /* ViewControllers */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ViewControllers; sourceTree = "<group>"; };
+		A211987A2D136D98002AFEC3 /* App */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (A211987B2D136D99002AFEC3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = App; sourceTree = "<group>"; };
+		A211987C2D136DF8002AFEC3 /* Services */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Services; sourceTree = "<group>"; };
+		A211987D2D136E0E002AFEC3 /* Resources */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Resources; sourceTree = "<group>"; };
+		A211987E2D136E1F002AFEC3 /* StoryBoards */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (A211987F2D136E1F002AFEC3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, A21198802D136E1F002AFEC3 /* PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = StoryBoards; sourceTree = "<group>"; };
+		A21198812D136ED1002AFEC3 /* Models */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Models; sourceTree = "<group>"; };
+		A21198822D136EEC002AFEC3 /* Helpers */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Helpers; sourceTree = "<group>"; };
+		A21198832D136F27002AFEC3 /* View */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = View; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A80708A62BB5DACF00128186 /* Frameworks */ = {
@@ -58,14 +78,14 @@
 		A80708AB2BB5DACF00128186 /* TaskList */ = {
 			isa = PBXGroup;
 			children = (
-				A80708AC2BB5DACF00128186 /* AppDelegate.swift */,
-				A80708AE2BB5DACF00128186 /* SceneDelegate.swift */,
-				A80708B02BB5DACF00128186 /* TaskListViewController.swift */,
-				A80708C52BB5EAB200128186 /* FilledButtonFactory.swift */,
-				A80708B52BB5DACF00128186 /* TaskList.xcdatamodeld */,
-				A80708B82BB5DAD000128186 /* Assets.xcassets */,
-				A80708BA2BB5DAD000128186 /* LaunchScreen.storyboard */,
-				A80708BD2BB5DAD000128186 /* Info.plist */,
+				A211987A2D136D98002AFEC3 /* App */,
+				A21198792D136D34002AFEC3 /* ViewControllers */,
+				A21198822D136EEC002AFEC3 /* Helpers */,
+				A211987C2D136DF8002AFEC3 /* Services */,
+				A21198832D136F27002AFEC3 /* View */,
+				A21198812D136ED1002AFEC3 /* Models */,
+				A211987D2D136E0E002AFEC3 /* Resources */,
+				A211987E2D136E1F002AFEC3 /* StoryBoards */,
 			);
 			path = TaskList;
 			sourceTree = "<group>";
@@ -84,6 +104,16 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A21198792D136D34002AFEC3 /* ViewControllers */,
+				A211987A2D136D98002AFEC3 /* App */,
+				A211987C2D136DF8002AFEC3 /* Services */,
+				A211987D2D136E0E002AFEC3 /* Resources */,
+				A211987E2D136E1F002AFEC3 /* StoryBoards */,
+				A21198812D136ED1002AFEC3 /* Models */,
+				A21198822D136EEC002AFEC3 /* Helpers */,
+				A21198832D136F27002AFEC3 /* View */,
 			);
 			name = TaskList;
 			productName = TaskList;
@@ -106,7 +136,6 @@
 				};
 			};
 			buildConfigurationList = A80708A42BB5DACF00128186 /* Build configuration list for PBXProject "TaskList" */;
-			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -114,6 +143,7 @@
 				Base,
 			);
 			mainGroup = A80708A02BB5DACF00128186;
+			preferredProjectObjectVersion = 56;
 			productRefGroup = A80708AA2BB5DACF00128186 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,8 +158,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A80708B92BB5DAD000128186 /* Assets.xcassets in Resources */,
-				A80708BC2BB5DAD000128186 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,26 +168,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A80708B72BB5DACF00128186 /* TaskList.xcdatamodeld in Sources */,
-				A80708C62BB5EAB200128186 /* FilledButtonFactory.swift in Sources */,
-				A80708B12BB5DACF00128186 /* TaskListViewController.swift in Sources */,
-				A80708AD2BB5DACF00128186 /* AppDelegate.swift in Sources */,
-				A80708AF2BB5DACF00128186 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		A80708BA2BB5DAD000128186 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A80708BB2BB5DAD000128186 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A80708BE2BB5DAD000128186 /* Debug */ = {
@@ -290,7 +302,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GBTTU32HS2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TaskList/Info.plist;
+				INFOPLIST_FILE = TaskList/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
@@ -322,7 +334,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GBTTU32HS2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TaskList/Info.plist;
+				INFOPLIST_FILE = TaskList/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
@@ -367,19 +379,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		A80708B52BB5DACF00128186 /* TaskList.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				A80708B62BB5DACF00128186 /* TaskList.xcdatamodel */,
-			);
-			currentVersion = A80708B62BB5DACF00128186 /* TaskList.xcdatamodel */;
-			path = TaskList.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = A80708A12BB5DACF00128186 /* Project object */;
 }
