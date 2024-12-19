@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 74;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXFileReference section */
@@ -11,38 +11,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		A211987B2D136D99002AFEC3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		A24478332D146D16005C60AE /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
 			target = A80708A82BB5DACF00128186 /* TaskList */;
 		};
-		A211987F2D136E1F002AFEC3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				/Localized/LaunchScreen.storyboard,
-			);
-			target = A80708A82BB5DACF00128186 /* TaskList */;
-		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		A21198802D136E1F002AFEC3 /* PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet */ = {
-			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
-			buildPhase = A80708A72BB5DACF00128186 /* Resources */;
-			membershipExceptions = (
-				Base.lproj/LaunchScreen.storyboard,
-			);
-		};
-/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		A21198792D136D34002AFEC3 /* ViewControllers */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ViewControllers; sourceTree = "<group>"; };
-		A211987A2D136D98002AFEC3 /* App */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (A211987B2D136D99002AFEC3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = App; sourceTree = "<group>"; };
+		A211987A2D136D98002AFEC3 /* App */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (A24478332D146D16005C60AE /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = App; sourceTree = "<group>"; };
 		A211987C2D136DF8002AFEC3 /* Services */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Services; sourceTree = "<group>"; };
 		A211987D2D136E0E002AFEC3 /* Resources */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Resources; sourceTree = "<group>"; };
-		A211987E2D136E1F002AFEC3 /* StoryBoards */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (A211987F2D136E1F002AFEC3 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, A21198802D136E1F002AFEC3 /* PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = StoryBoards; sourceTree = "<group>"; };
+		A211987E2D136E1F002AFEC3 /* StoryBoards */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = StoryBoards; sourceTree = "<group>"; };
 		A21198812D136ED1002AFEC3 /* Models */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Models; sourceTree = "<group>"; };
 		A21198822D136EEC002AFEC3 /* Helpers */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Helpers; sourceTree = "<group>"; };
 		A21198832D136F27002AFEC3 /* View */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = View; sourceTree = "<group>"; };
@@ -136,6 +119,7 @@
 				};
 			};
 			buildConfigurationList = A80708A42BB5DACF00128186 /* Build configuration list for PBXProject "TaskList" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -143,7 +127,6 @@
 				Base,
 			);
 			mainGroup = A80708A02BB5DACF00128186;
-			preferredProjectObjectVersion = 56;
 			productRefGroup = A80708AA2BB5DACF00128186 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
